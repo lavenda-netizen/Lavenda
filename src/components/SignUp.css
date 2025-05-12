@@ -1,0 +1,93 @@
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+/* General form styles */
+.card {
+    border-radius: 15px;
+}
+
+h2 {
+    color: #3c3c3c;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+.form-control {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input-group-text {
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-info:hover, .btn-secondary:hover {
+    background-color: #138496;
+}
+
+/* Success and error messages */
+.text-warning {
+    font-size: 1rem;
+}
+
+.text-danger, .invalid-feedback {
+    color: #dc3545;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+/* Invalid form field feedback */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    font-size: 0.875rem;
+    display: block;
+}
+
+/* Margin adjustments for buttons */
+.mt-2 {
+    margin-top: 10px;
+}
+
+/* Password visibility toggle icon */
+.input-group-text i {
+    font-size: 1.2rem;
+}

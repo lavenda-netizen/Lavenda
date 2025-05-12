@@ -1,0 +1,49 @@
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-container h2 {
+    font-weight: bold;
+}
+
+iframe {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+/* Contact.css */
+.contact-container {
+    margin-top: 0; /* Removes margin on top of the contact section */
+    padding-top: 0; /* Removes any padding if any is applied by default */
+}
+
+/* Optional: To ensure the navbar is flush with the top of the page */
+.navbar {
+    margin-top: 0;
+}
+
+/* You can also ensure that no extra space is added by body or html */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure no space between navbar and the top of the page */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default top margin in navbar */
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Optional: Remove any padding or margin added by bootstrap classes to ensure no space */
+.navbar-container,
+.container,
+.container-fluid {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
