@@ -196,4 +196,4 @@ const GetProducts = () => {
     );
 };
 
-export default GetProducts;
+export default GetProducts
